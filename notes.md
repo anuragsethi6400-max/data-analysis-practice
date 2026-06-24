@@ -14,3 +14,11 @@
 - Basic Git commands: `git add`, `git commit`, and `git push`.
 - How to publish my work on GitHub.
 
+## What was hard
+- Understanding pandas operations such as `groupby()`, `apply()`, and selecting rows and columns.
+- Building confidence to share my work publicly.
+
+## Next week
+- Practice data cleaning with pandas.
+- Learn data visualization with matplotlib and seaborn.
+- Build a small data-cleaning and visualization project.
