@@ -6,6 +6,7 @@ Python and pandas notebooks from my AI/ML learning journey.
 
 - `python_refresher.ipynb`: Python fundamentals practice, including functions, conditionals, lists, loops, dictionaries, and basic analysis.
 - `pandas_basics_practice.ipynb`: Practice from the six Kaggle Pandas sections below.
+- `pandas_basics_titanic.ipynb`: Exploratory data analysis of the Titanic dataset using pandas, including missing values, survival rates, passenger class, fare, and age analysis.
 
 ## Pandas Topics Covered
 
