@@ -1,22 +1,49 @@
 # Data Analysis Practice
 
-Python and pandas notebooks from my AI/ML learning journey.
+Python, pandas, and data analysis notebooks from my AI/ML learning journey.
 
-## Notebooks
+This repository tracks my practical work as I build toward machine learning: first Python and pandas foundations, then data cleaning, exploratory data analysis, visualization, and eventually model building.
 
-- `python_refresher.ipynb`: Python fundamentals practice, including functions, conditionals, lists, loops, dictionaries, and basic analysis.
-- `pandas_basics_practice.ipynb`: Practice from the six Kaggle Pandas sections below.
-- `pandas_basics_titanic.ipynb`: Exploratory data analysis of the Titanic dataset using pandas, including missing values, survival rates, passenger class, fare, and age analysis.
+## Repository Structure
 
-## Pandas Topics Covered
+| Folder | Focus | Main work |
+|---|---|---|
+| `week-1-python-pandas-basics/` | Python and pandas foundations | Python refresher, Kaggle pandas practice, basic Titanic analysis |
+| `week-2-titanic-eda/` | Data cleaning and EDA | Missing values, feature engineering, survival pattern analysis, final EDA report |
 
-1. Creating, Reading, and Writing: creating DataFrames and Series, and reading CSV files.
-2. Indexing, Selecting, and Assigning: using `loc`, `iloc`, filters, and creating columns.
-3. Summary Functions and Maps: descriptive statistics, `map()`, and `apply()`.
-4. Grouping and Sorting: `groupby()`, aggregations, multi-column groups, and sorting results.
-5. Data Types and Missing Values: inspecting data types, converting types, finding missing values, and filling missing data.
-6. Renaming and Combining: renaming columns, concatenating DataFrames, and merging related datasets.
+## Week 1: Python and Pandas Basics
+
+Covered:
+
+- Python fundamentals: variables, functions, conditionals, loops, lists, dictionaries, imports
+- pandas basics: DataFrames, Series, indexing, filtering, grouping, sorting, missing values, combining data
+- Basic Titanic exploration using pandas
+- Git, GitHub, and learning-in-public setup
+
+Key notebooks:
+
+- `week-1-python-pandas-basics/python_refresher.ipynb`
+- `week-1-python-pandas-basics/pandas_basics_practice.ipynb`
+- `week-1-python-pandas-basics/pandas_basics_titanic.ipynb`
+
+## Week 2: Titanic Data Cleaning and EDA
+
+Covered:
+
+- Data quality checks: missing values, data types, duplicate checks, unique values
+- Missing value strategy for `age`, `cabin`, and `embarked`
+- Feature engineering: `family_size`, `is_alone`, `title_group`, `age_group`, and `fare_group`
+- Survival rate analysis across gender, passenger class, age group, fare group, title group, and family status
+- Visual storytelling with pandas, matplotlib, and seaborn
+- Final EDA report focused on the strongest survival patterns
+
+Key files:
+
+- `week-2-titanic-eda/titanic_cleaning_advanced.ipynb`
+- `week-2-titanic-eda/titanic_eda_report.ipynb`
+- `week-2-titanic-eda/titanic_cleaned.csv`
+- `week-2-titanic-eda/titanic_features.csv`
 
 ## Current Focus
 
-I am strengthening my foundations in Python and data analysis before moving into data visualization, SQL, statistics, and machine learning projects.
+I am moving from data analysis into beginner machine learning. The next step is to use the cleaned Titanic dataset to build a first supervised ML workflow with train/validation split, baseline models, evaluation metrics, and error analysis.
