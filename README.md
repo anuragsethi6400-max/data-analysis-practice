@@ -1,4 +1,4 @@
-# Data Analysis
+# Data Analysis Practice
 
 Python and pandas notebooks from my AI/ML learning journey.
 
