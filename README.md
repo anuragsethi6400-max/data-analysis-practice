@@ -10,6 +10,7 @@ This repository tracks my practical work as I build toward machine learning: fir
 |---|---|---|
 | `week-1-python-pandas-basics/` | Python and pandas foundations | Python refresher, Kaggle pandas practice, basic Titanic analysis |
 | `week-2-titanic-eda/` | Data cleaning and EDA | Missing values, feature engineering, survival pattern analysis, final EDA report |
+| `week-3-statistics-driven-eda/` | Statistics-driven EDA | Quantiles, reliability checks, weak vs strong findings, correlation traps, final Titanic EDA report |
 
 ## Week 1: Python and Pandas Basics
 
@@ -44,6 +45,23 @@ Key files:
 - `week-2-titanic-eda/titanic_cleaned.csv`
 - `week-2-titanic-eda/titanic_features.csv`
 
+## Week 3: Statistics-Driven Titanic EDA
+
+Covered:
+
+- Distribution analysis for `age`, `fare`, and `family_size`
+- Quantiles and outlier detection
+- Passenger-count reliability checks
+- Weak vs strong findings
+- Correlation vs causation
+- Confounding between fare and passenger class
+- Final EDA report with visual evidence
+
+Key files:
+
+- `week-3-statistics-driven-eda/statistics_driven_titanic_eda.ipynb`
+- `week-3-statistics-driven-eda/titanic_features.csv`
+
 ## Current Focus
 
-I am moving from data analysis into beginner machine learning. The next step is to use the cleaned Titanic dataset to build a first supervised ML workflow with train/validation split, baseline models, evaluation metrics, and error analysis.
+I am finishing statistics-driven EDA before moving into beginner machine learning. The next step is to convert the cleaned Titanic dataset into a first supervised ML workflow with train/validation split, baseline models, evaluation metrics, and error analysis.
